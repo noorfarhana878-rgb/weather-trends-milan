@@ -136,9 +136,6 @@ The visualizations and statistical results are available in the `outputs/` folde
 
 ---
 
-
----
-
 ## Author
 
 **Name:** Farhana Noor  
