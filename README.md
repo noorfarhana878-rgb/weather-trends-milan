@@ -2,7 +2,7 @@
 
 Milan Weather Trends is a Python-based data analysis project that explores historical temperature patterns in Milan, Italy, from **1995 to 2025**. It uses real historical weather data to investigate temperature changes, seasonal patterns, and the frequency of hot days.
 
-![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
+![Python](https://img.shields.io/badge/Python-3.14.7-blue)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 
 ## What the project does
@@ -75,6 +75,7 @@ Dependencies are listed in `requirements.txt`.
    ```
 
 No API key is required.
+The project was developed and tested using Python 3.14.7.
 
 ## Run
 
