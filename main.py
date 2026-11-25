@@ -40,9 +40,19 @@ def main():
     print("\nStep 2: Cleaning weather data...")
     weather = clean_weather_data(raw_data)
 
+    
     # Step 3: Check the number of observations per year.
     print("\nStep 3: Checking data completeness...")
     completeness = check_data_completeness(weather)
+
+    # Verify that all expected years are present.
+    expected_years = set(range(1995, 2026))
+    observed_years = set(completeness["year"])
+
+    if observed_years != expected_years:
+        raise ValueError(
+            "Unexpected or missing years in the dataset."
+        )
 
     # Stop if any year has less than 95% coverage.
     incomplete = completeness[
@@ -53,6 +63,9 @@ def main():
         raise ValueError(
             "Some years have less than 95% data coverage."
         )
+
+    print("Data completeness checks passed successfully.")
+
 
     # Step 4: Calculate annual temperatures.
     print("\nStep 4: Calculating annual temperatures...")
