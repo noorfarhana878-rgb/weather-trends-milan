@@ -55,7 +55,7 @@ Dependencies are listed in `requirements.txt`.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YOUR-USERNAME/weather-trends-milan.git
+   git clone https://github.com/noorfarhana878-rgb/weather-trends-milan.git
    cd weather-trends-milan
    ```
 
