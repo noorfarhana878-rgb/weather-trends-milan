@@ -136,6 +136,13 @@ The visualizations and statistical results are available in the `outputs/` folde
 
 ---
 
+
+---
+
+## Author
+
+**Name:** Farhana Noor  
+**Programme:** Data Science for Economics and Health  
 **Course:** Coding for Data Science and Data Management  
 **University:** University of Milan  
 **Academic Year:** 2026/27
