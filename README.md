@@ -129,6 +129,10 @@ The project generates annual temperature trends, monthly temperature comparisons
 
 The visualizations and statistical results are available in the `outputs/` folder and the Jupyter Notebook.
 
+### Annual Temperature Trend
+
+![Annual Temperature Trend](outputs/annual_temperature.png)
+
 ---
 
 **Course:** Coding for Data Science and Data Management  
